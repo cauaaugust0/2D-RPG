@@ -1,93 +1,59 @@
-# 2D-RPG (Development)
+# 2D Top-Down Game 
 
-A 2D top-down RPG prototype written in C using Raylib.
+**Status:** Early Development
 
-This project aims to become a complete RPG experience featuring survival, exploration, combat, NPCs, progression systems and a final boss encounter.
+A learning and experimentation project focused on developing a 2D top-down game.
 
-The current version is in the prototyping stage and focuses primarily on experimenting with gameplay systems and improving software engineering skills.
+The current goal is to implement the core gameplay systems and validate the project's architecture before investing time in optimization, visual improvements, and refactoring.
 
-## Project Goals
+## Goal
 
-The main purpose of this project is not only to create a game, but also to study and experiment with common algorithms and architectures used in game development.
+Create a 2D game featuring:
 
-Technical goals include:
+* A small-scale map
+* A controllable player character
+* An inventory system
+* AI-controlled enemies
+* Combat and loot mechanics
 
-* Game development using C.
-* Animation state machine.
-* Understanding memory management and pointers.
-* Practicing software architecture and engineering principles.
-* Studying GUI and player interaction systems.
-* Learning callback-based systems.
-* Experimenting with AI for combat and NPC behavior.
-* Implementing save/load systems using JSON.
-* Improving general problem-solving skills.
+## Implemented Features
 
-## Current Features
+### Player
 
-* Top-down camera system.
-* Player movement.
-* World map (2000x2000).
-* Basic inventory system.
-* Player attributes system.
+* Basic player movement
 
-## Technologies
+### Inventory
 
-* C
-* Raylib
-* cJSON
-* GCC
-* Makefile
+* Inventory system
+* Item layout organization and movement
 
-## Development Environment
+## Upcoming Features
 
-The project is currently developed and tested on Windows.
+### Gameplay
 
-## Project Structure
+* Quick-access hotbar mapped to keys `1-0`
+* Equip and use items in hand
+* Item system
+* Loot scattered throughout the map
+* Combat system
 
-```text
-src/
-├── player/
-├── inventory/
-├── item/
-├── map/
-├── save/
-```
+### AI
 
-## Build
+* Basic enemy behavior
+* Player detection and pursuit
+* State-based AI (idle, patrol, combat)
 
-Requirements:
+## Roadmap
 
-* GCC
-* Raylib
-* cJSON
+* [x] Player movement
+* [x] Basic inventory
+* [ ] Item system
+* [ ] Map loot
+* [ ] Quick-access hotbar (1-0)
+* [ ] Combat
+* [ ] Enemy AI
+* [ ] Polish and optimization
 
-Compile using:
+## Notes
 
-```bash
-make
-```
-
-## Current State
-
-**Status:** Prototype / Early Development
-
-The project is currently focused on validating gameplay systems and experimenting with different implementations before moving into a more complete architecture.
-
-## Planned Features
-
-* Save and load system.
-* Usable items.
-* Loot system.
-* Collision system.
-* Combat mechanics.
-* NPCs.
-* Animals and wildlife.
-* Level progression system.
-* Enemy AI.
-* Final boss encounter.
-
-## Motivation
-
-One of the biggest motivations behind this project is the freedom to imagine new mechanics and implement them from scratch. Even if a feature takes time to develop, the process itself provides valuable knowledge about game development and software engineering.
-
-The long-term goal is to transform this prototype into a fully playable game.
+This project is under active development and currently prioritizes functionality over code organization, performance, or visual quality. The main objective is to validate gameplay mechanics and core systems before investing in structural improvements and optimization.
