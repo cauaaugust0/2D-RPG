@@ -25,11 +25,10 @@ Technical goals include:
 
 * Top-down camera system.
 * Player movement.
-* Large world map (2000x2000).
+* World map (2000x2000).
 * Basic inventory system.
 * Inventory slot selection.
 * Mouse interaction with inventory.
-* Item movement between inventory slots.
 * Player attributes system.
 * Pause/menu interaction.
 
